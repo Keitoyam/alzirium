@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "K": "minecraft:prismarine_shard",
+    "L": "minecraft:verdant_froglight",
+    "N": "minecraft:quartz",
+    "O": "minecraft:prismarine_crystals"
+  },
+  "pattern": [
+    "KO",
+    "LN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alzirium:prismarine_tine"
+  }
+}

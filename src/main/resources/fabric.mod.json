@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "alzirium",
+	"version": "0.1",
+	"name": "Alzirium",
+	"description": "i suck at coding",
+	"authors": [
+		"Kentōyäm"
+	],
+	"contact": {
+		"homepage": "none :)",
+		"sources": "none :p"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/alzirium/Alzirium.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kentoyam.alzirium.Alzirium"
+		],
+		"fabric-datagen": [
+			"net.kentoyam.alzirium.AlziriumDataGenerator"
+		],
+		"client": [
+			"net.kentoyam.alzirium.AlziriumClient"
+		]
+	},
+	"mixins": [
+		"alzirium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

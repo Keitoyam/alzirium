@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "alzirium:prismarine_tine",
+    "B": "alzirium:prismarine_rod"
+  },
+  "pattern": [
+    "AAA",
+    " B ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:trident"
+  }
+}

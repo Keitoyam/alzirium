@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:prismarine_shard"
+  },
+  "pattern": [
+    "H",
+    "H"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alzirium:prismarine_rod"
+  }
+}
