@@ -29,9 +29,9 @@ public class ModBlocks {
     public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_LOG).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_planks")))));
     public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
-            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_leaves")))) {
+            new TintedParticleLeavesBlock(0.01f AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_leaves")))) {
                 @Override
-                public MapCodec<? extends LeavesBlock> getCodec() {
+                public MapCodec<? extends TintedParticleLeavesBlock> getCodec() {
                     return null;
                 }
 
