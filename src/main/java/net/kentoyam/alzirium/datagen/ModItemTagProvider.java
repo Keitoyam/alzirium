@@ -10,7 +10,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
-        super(output, output, completableFuture);
+        super(output, completableFuture);
     }
 
     @Override
@@ -24,6 +24,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.MAPLE_PLANKS.asItem());
 
+        //computer bs happening rn, send help
 
     }
 }

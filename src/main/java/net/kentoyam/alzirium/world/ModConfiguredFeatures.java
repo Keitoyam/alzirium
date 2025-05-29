@@ -16,6 +16,8 @@ import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
+//where is this getorwrapper thing idk wat its called :(
+
 public class ModConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, MAPLE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(

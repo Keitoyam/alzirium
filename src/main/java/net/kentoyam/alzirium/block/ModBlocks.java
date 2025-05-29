@@ -8,14 +8,12 @@ import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.random.Random;
-import net.minecraft.world.World;
 
 public class ModBlocks {
     public static final Block MAPLE_LOG = registerBlock("maple_log",
@@ -29,7 +27,7 @@ public class ModBlocks {
     public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_LOG).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_planks")))));
     public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
-            new TintedParticleLeavesBlock(0.01f, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_leaves")))))
+            new UntintedParticleLeavesBlock(0.01f, ParticleTypes.PALE_OAK_LEAVES, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_leaves")))));
     public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
             new SaplingBlock(ModSaplingGenerators.MAPLE, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_sapling")))));
 
