@@ -16,13 +16,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(ModBlocks.MAPLE_LOG);
+                .add(ModBlocks.MAPLE_LOG)
+                .add(ModBlocks.MAPLE_WOOD)
+                .add(ModBlocks.STRIPPED_MAPLE_LOG)
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD)
+                .add(ModBlocks.MAPLE_PLANKS);
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.MAPLE_LOG)
                 .add(ModBlocks.MAPLE_WOOD)
                 .add(ModBlocks.STRIPPED_MAPLE_LOG)
                 .add(ModBlocks.STRIPPED_MAPLE_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.MAPLE_LEAVES);
 
     }
 }
