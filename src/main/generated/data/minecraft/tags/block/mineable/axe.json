@@ -1,5 +1,9 @@
 {
   "values": [
-    "alzirium:maple_log"
+    "alzirium:maple_log",
+    "alzirium:maple_wood",
+    "alzirium:stripped_maple_log",
+    "alzirium:stripped_maple_wood",
+    "alzirium:maple_planks"
   ]
 }

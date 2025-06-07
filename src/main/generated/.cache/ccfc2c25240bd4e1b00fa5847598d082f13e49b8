@@ -1,2 +1,4 @@
 // 1.21.5	-999999999-01-01T00:00:00	Alzirium/Tags for minecraft:block
-f7905c2d24ade6ee1666934f07ad3b4266e7e316 data/minecraft/tags/block/mineable/axe.json
+8deae53ae27da04c801427178f685bde235d556e data/minecraft/tags/block/logs_that_burn.json
+ced2af73aa07493a2e5d51c722a8578de1a600c6 data/minecraft/tags/block/mineable/axe.json
+6bf78ab3a8a06f61cd03a240534b634ef1db2ddf data/minecraft/tags/block/mineable/hoe.json

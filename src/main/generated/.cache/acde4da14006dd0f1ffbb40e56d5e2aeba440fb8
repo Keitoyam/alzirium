@@ -1,2 +1,7 @@
 // 1.21.5	-999999999-01-01T00:00:00	Alzirium/Block Loot Tables
+5b81f438972b51d7c0aafc7102fe8a3329169492 data/alzirium/loot_table/blocks/maple_leaves.json
 9b4cc5ebc5dc9ae04d2819e279084a65085d8190 data/alzirium/loot_table/blocks/maple_log.json
+015597ef978af9699212926b5a288e445709f7c8 data/alzirium/loot_table/blocks/maple_planks.json
+2c3396a2f62ebdd120b41373a074ddd39dd3773a data/alzirium/loot_table/blocks/maple_sapling.json
+2cea4a1604e3dcfe7312aa8dc728bea27f7a6d8e data/alzirium/loot_table/blocks/maple_wood.json
+d4dae05507b8c1067f9be2cfd0088e509cf76561 data/alzirium/loot_table/blocks/stripped_maple_log.json

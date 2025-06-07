@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "alzirium:block/maple_log"
+    "end": "alzirium:block/maple_log_top",
+    "side": "alzirium:block/maple_log"
   }
 }

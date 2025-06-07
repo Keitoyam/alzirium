@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "alzirium:block/maple_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "alzirium:block/maple_log"
+    },
+    "axis=z": {
+      "model": "alzirium:block/maple_log_horizontal",
+      "x": 90
     }
   }
 }

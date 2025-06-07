@@ -2,6 +2,7 @@ package net.kentoyam.alzirium.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.kentoyam.alzirium.block.ModBlocks;
 import net.kentoyam.alzirium.item.ModItems;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
@@ -46,6 +47,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('B', ModItems.PRISMARINE_ROD)
                         .criterion(hasItem(Items.PRISMARINE_SHARD), conditionsFromItem(Items.PRISMARINE_SHARD))
                         .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModBlocks.MAPLE_PLANKS, 4)
+                        .input(ModBlocks.MAPLE_LOG)
+                        .input(ModBlocks.MAPLE_WOOD)
+                        .input(ModBlocks.STRIPPED_MAPLE_LOG)
+                        .input(ModBlocks.STRIPPED_MAPLE_WOOD)
+                        .criterion(hasItem(ModBlocks.MAPLE_LOG), conditionsFromItem(ModBlocks.MAPLE_LOG))
+                        .offerTo(exporter);
             }
         };
     }
@@ -53,6 +61,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public String getName() {
-        return "TutorialMod Recipes";
+        return "schnitzels are massive";
     }
 }

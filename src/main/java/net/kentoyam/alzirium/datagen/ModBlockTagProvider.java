@@ -31,5 +31,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.MAPLE_LEAVES);
 
+        getOrCreateTagBuilder(BlockTags.)
+                .add(ModBlocks.MAPLE_LEAVES);
+
     }
 }

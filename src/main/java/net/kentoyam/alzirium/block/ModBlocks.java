@@ -25,7 +25,7 @@ public class ModBlocks {
     public static final Block STRIPPED_MAPLE_WOOD = registerBlock("stripped_maple_wood",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "stripped_maple_log")))));
     public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_LOG).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_planks")))));
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_planks")))));
     public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
             new UntintedParticleLeavesBlock(0.01f, ParticleTypes.PALE_OAK_LEAVES, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Alzirium.MOD_ID, "maple_leaves")))));
     public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
@@ -47,6 +47,12 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.MAPLE_LOG);
+            entries.add(ModBlocks.MAPLE_WOOD);
+            entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
+            entries.add(ModBlocks.STRIPPED_MAPLE_WOOD);
+            entries.add(ModBlocks.MAPLE_PLANKS);
+            entries.add(ModBlocks.MAPLE_LEAVES);
+            entries.add(ModBlocks.MAPLE_SAPLING);
         });
     }
 }
