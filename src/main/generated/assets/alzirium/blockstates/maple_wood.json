@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alzirium:block/maple_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alzirium:block/maple_wood"
+    },
+    "axis=z": {
+      "model": "alzirium:block/maple_wood",
+      "x": 90
+    }
+  }
+}
